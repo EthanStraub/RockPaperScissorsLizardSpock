@@ -1,0 +1,7 @@
+C:\Users\Ethan\Desktop\Visual Studio Programs\RPSLS\RPSLS\obj\Debug\RPSLS.csprojAssemblyReference.cache
+C:\Users\Ethan\Desktop\Visual Studio Programs\RPSLS\RPSLS\obj\Debug\RPSLS.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\Desktop\Visual Studio Programs\RPSLS\RPSLS\bin\Debug\RPSLS.exe.config
+C:\Users\Ethan\Desktop\Visual Studio Programs\RPSLS\RPSLS\bin\Debug\RPSLS.exe
+C:\Users\Ethan\Desktop\Visual Studio Programs\RPSLS\RPSLS\bin\Debug\RPSLS.pdb
+C:\Users\Ethan\Desktop\Visual Studio Programs\RPSLS\RPSLS\obj\Debug\RPSLS.exe
+C:\Users\Ethan\Desktop\Visual Studio Programs\RPSLS\RPSLS\obj\Debug\RPSLS.pdb
