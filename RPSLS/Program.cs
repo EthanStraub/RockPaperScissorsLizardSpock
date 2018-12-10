@@ -10,6 +10,8 @@ namespace RPSLS
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+
             Console.WriteLine(" -- Rock Paper Scissors Lizard Spock -- \r\n");
             Console.WriteLine("Proper syntax is as follows: 'rock','paper','scissors','lizard','spock','restart','quit'.\r\n");
 

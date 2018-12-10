@@ -8,6 +8,8 @@ namespace RPSLS
 {
     public class Player : Game
     {
+        public string winOption;
+
         public Player(bool versusAI)
         {
             this.versusAI = versusAI;
@@ -18,14 +20,13 @@ namespace RPSLS
             if (!versusAI)
             {
                 HumanPlayer Humans = new HumanPlayer(versusAI);
-                Humans.PlayerChoice();
+                Humans.ChoiceCalcLoop();
             }
             else if (versusAI)
             {
                 ComputerPlayer HumanAndComp = new ComputerPlayer(versusAI);
-                HumanAndComp.PlayerChoice();
+                HumanAndComp.ChoiceCalcLoop();
             }
         }
-    }
-        
+    }        
 }
