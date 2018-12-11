@@ -6,27 +6,20 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    public class Player : Game
+    public abstract class Player
     {
-        public string winOption;
 
-        public Player(bool versusAI)
+        public int score;
+        public string gesture;
+        public int playerId;
+        
+        public Player()
         {
-            this.versusAI = versusAI;
+            score = 0;
+            gesture = "";
+            playerId = 0;
         }
 
-        public void Play()
-        {
-            if (!versusAI)
-            {
-                HumanPlayer Humans = new HumanPlayer(versusAI);
-                Humans.ChoiceCalcLoop();
-            }
-            else if (versusAI)
-            {
-                ComputerPlayer HumanAndComp = new ComputerPlayer(versusAI);
-                HumanAndComp.ChoiceCalcLoop();
-            }
-        }
+        public abstract void ChooseGesture();
     }        
 }

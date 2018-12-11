@@ -15,8 +15,8 @@ namespace RPSLS
             Console.WriteLine(" -- Rock Paper Scissors Lizard Spock -- \r\n");
             Console.WriteLine("Proper syntax is as follows: 'rock','paper','scissors','lizard','spock','restart','quit'.\r\n");
 
-            Game NewGame = new Game();
-            NewGame.GameLoop();
+            GameManager NewManager = new GameManager();
+            NewManager.StartManager();
         }
     }
 
